@@ -1,0 +1,71 @@
+<!--https://getbootstrap.com/docs/4.5/getting-started/introduction/ En esta página se copia el index
+desde el que parten todas las páginas en bootstrap-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+	<!--La etiqueta viewport es para que nuestra pagina sea compatible en tablets y moviles-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS  así se conecta a bootstrap cada vez que carguemos la página, 
+	para que no tenga que hacerlo y vaya mas rápido, se cambia la dirección por la ruta del archivo 
+	min que tenemos en la carpeta css y la ruta del 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">-->
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<!--estilos css-->
+	<style>
+		.sinmargen{
+			background-color: blue;
+		}
+		.conmargen{
+			background-color: grey;
+		}
+		.borde{
+			border: 1px solid black;
+			text-align: center;
+			height: 50px;
+		}
+		.color1{
+			background: #209926;
+		}
+		.color2{
+			background: #00CC00;
+		}
+		.color3{
+			background: #39E639;
+		}
+		.color4{
+			background: #67E667
+		}
+		.color5{
+			background: #008500
+		}
+	</style>
+    <title>JOERIDA</title>
+  </head>
+  <body>
+    <h1>JOERIDA</h1>
+
+    <div class="container">
+		<div class="row">
+			<div class="borde color1 col-sm-12">HEADER</div>
+		</div>
+		<div class="row">
+			<div class="borde color2 col-sm-6 col-md-3">izquierda</div>
+			<div class="borde color3 col-sm-6 col-md-6">Centro</div>
+			<div class="borde color4 col-sm-12 col-md-3">Derecha</div>
+		</div>
+		<div class="row">
+			<div class="borde color5 col-sm-12">FOOTER</div>
+		</div>
+	</div>
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>-->
+	<script src="bootstrap/js/bootstrap.min.js">
+  </body>
+</html>
